@@ -78,7 +78,7 @@ namespace ConsoleApplication4
             d.numDay();
             Console.WriteLine("Номер дня с начала года : "+d.iNumDay);
 
-            Console.Write("\r\nВвод новой даты,для расчета отставания в неделях\r\nВведите день: ");
+            Console.Write("\r\nВвод новой даты для расчета отставания в неделях\r\nВведите день: ");
             int new_day = int.Parse(Console.ReadLine());
             if (new_day > 31 || new_day < 0) Console.WriteLine("Ошибка!День введен неправильно");
             int new_month = 0;
